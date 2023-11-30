@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <header class="container border-bottom">
+      <nav class="row d-flex align-items-center">
+        <a class="col-md-2" href="#"
+          ><img src="/images/logo.png" alt="logo"
+        /></a>
+        <div class="col-md-10 d-flex justify-content-end gap-3 p-3">
+          <a
+            class="text-decoration-none text-bg-dark text-white p-3 rounded-4"
+            href="#home"
+            >Home</a
+          >
+          <a
+            class="text-decoration-none text-bg-dark text-white p-3 rounded-4"
+            href="#recipes"
+            >Our Mails</a
+          >
+          <a
+            class="text-decoration-none text-bg-dark text-white p-3 rounded-4"
+            href="#About-Us"
+            >About Us</a
+          >
+          <a
+            class="text-decoration-none text-bg-dark text-white p-3 rounded-4"
+            href="#Contact-Us"
+            >Contact Us</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <!-- banner section -->
+    <section id="home" class="background-section">
+      <div class="row">
+        <div class="banner-info col-md-5 d-flex flex-column gap-4">
+          <h2 class="fw-bold fs-1">
+            Welcome to a Culinary Adventure, Explore the Flavors of Our
+            Delectable World!
+          </h2>
+          <p>
+            Indulge your senses in a culinary journey with our diverse selection
+            of mouthwatering dishes. From savory classics to innovative
+            creations, our menu is crafted to delight every palate. Join us for
+            an unforgettable dining experience where passion for food meets
+            exceptional taste.
+          </p>
+          <div class="d-flex justify-content-around align-items-center">
+            <button class="btn btn-warning">More Pictures</button>
+            <button class="btn btn-warning">More info</button>
+          </div>
+        </div>
+        <div class="col-md-7"></div>
+      </div>
+    </section>
+
+    <!-- Our Mails sec -->
+
+    <section
+      id="recipes"
+      class="container bg-body-secondary rounded-3 p-3 mt-4"
+    >
+      <h1
+        class="text-center mt-5 border-bottom fw-bold fs-1 text-danger-emphasis"
+      >
+        Our Food Varieties
+      </h1>
+      <div class="d-flex flex-wrap justify-content-around">
+        <div class="d-flex">
+          <div class="food-details">
+            <h4 class="text-center">Appetizers</h4>
+            <img class="shadow-lg" src="/images/foods/img-1.png" alt="" />
+            <button class="btn btn-warning">Recipe Detail</button>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="food-details">
+            <h4 class="text-center">Appetizers</h4>
+            <img class="shadow-lg" src="/images/foods/img-2.png" alt="" />
+            <button class="btn btn-warning">Recipe Detail</button>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="food-details">
+            <h4 class="text-center">Appetizers</h4>
+            <img class="shadow-lg" src="/images/foods/img-3.jpg" alt="" />
+            <button class="btn btn-warning">Recipe Detail</button>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="food-details">
+            <h4 class="text-center">Appetizers</h4>
+            <img class="shadow-lg" src="/images/foods/img-4.jpg" alt="" />
+            <button class="btn btn-warning">Recipe Detail</button>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="food-details">
+            <h4 class="text-center">Appetizers</h4>
+            <img class="shadow-lg" src="/images/foods/img-5.jpg" alt="" />
+            <button class="btn btn-warning">Recipe Detail</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="About-Us" class="container-fluid mt-4">
+      <h3 class="text-center fw-bold fs-1 border-bottom">Who Are We ?</h3>
+      <div class="row mt-5 p-3 d-flex justify-content-center gap-3">
+        <div
+          class="col-md-5 d-flex flex-column bg-warning bg-opacity-25 rounded-3 mt-2 justify-content-center align-items-center gap-3 shadow p-3"
+        >
+          <h2 class="text-center">Lucas Rodriguez</h2>
+          <img
+            class="rounded-4 img-fluid"
+            src="/images/review/review-1.jpg"
+            alt="lucas"
+          />
+          <p>
+            Lucas Rodriguez, a devoted gourmet, navigates the enchanting world
+            of flavors. His culinary journey explores exquisite tastes
+            worldwide, combining high-quality ingredients to leave a mark in the
+            gastronomic realm. Known for unique flavor profiles and creative
+            presentations, Rodriguez is an artist pushing the boundaries of
+            taste, offering a memorable dining experience with each plate.
+          </p>
+        </div>
+        <div class="col-md-5 d-flex flex-column bg-warning bg-opacity-25
+        rounded-3 mt-2 justify-content-center align-items-center gap-3 shadow
+        p-3 >
+        <h2 class="text-center">Isabella Martinez</h2>
+        <img
+          class="rounded-4 img-fluid"
+          src="/images/review/review-2.jpg"
+          alt="isabella"
+        />
+        <p>
+          Isabella Martinez, a culinary virtuoso, infuses passion and creativity
+          into every dish she creates. With a palate that dances across global
+          flavors, Isabella takes her diners on an unforgettable gastronomic
+          journey. Her culinary expertise extends from traditional favorites to
+          innovative masterpieces, leaving a lasting impression on those
+          fortunate enough to experience her creations. Isabella Martinez is not
+          just a chef; she is a culinary artist who transforms meals into
+          delightful works of art.
+        </p>
+      </div>
+    </section>
+
+    <footer id="Contact-Us" class="bg-dark-subtle text-dark p-5 mt-4">
+      <div class="container">
+        <div class="row d-flex justify-content-around">
+          <div class="col-md-2">
+            <h5 class="border-bottom">About Us</h5>
+            <p>
+              Indulge in the finest recipes and culinary inspiration here. Your
+              journey to delightful flavors begins!
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h5 class="border-bottom">Sign In</h5>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name LastName</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Adınız Soyadınız"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="ornek@example.com"
+                />
+              </div>
+              <button type="submit" class="btn btn-warning">Sing In</button>
+            </form>
+          </div>
+          <div class="col-md-2">
+            <h5 class="border-bottom">Contact Information</h5>
+            <p>Email: info@example.com</p>
+            <p>Phone: +123 456 7890</p>
+          </div>
+          <div class="col-md-2">
+            <h5 class="border-bottom">Follow Us</h5>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li>
+                <a class="text-dark bg-warning p-1 rounded" href="#"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a class="text-dark bg-warning p-1 rounded" href="#">Twitter</a>
+              </li>
+              <li>
+                <a class="text-dark bg-warning p-1 rounded" href="#"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a class="text-dark bg-warning p-1 rounded" href="#"
+                  >Pinterest</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2023 My Recipe Site</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

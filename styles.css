@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.background-section {
+  background-image: url("/images/bg/bg-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+}
+
+.banner-info {
+  margin-top: 200px;
+  padding-left: 60px;
+}
+
+.food-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.food-details img {
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
