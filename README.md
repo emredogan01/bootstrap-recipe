@@ -8,4 +8,3 @@
 
 ## HTML5 CSS3 Bootstrap
 
-![](screen.gif)
