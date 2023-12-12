@@ -6,6 +6,6 @@
 
 ## Kolay gezinme için özelleştirilmiş menüler.
 
-## HTML5 CSS3 Bootstrap
+## HTML5 CSS3 Bootstrap.
 
 ![](screen.gif)
